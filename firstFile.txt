@@ -1,3 +1,4 @@
 testing git commands
 create new local repo with {git init}
-stage changes for commit {git add}
+stage changes for commit {git add <file to add "." for all>}
+commit changes to local repo {git commit -m <message>}
