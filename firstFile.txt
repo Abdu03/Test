@@ -4,3 +4,5 @@ create new branch with {git checkout -b <branch name>}
 check for changes that have not been commited yet {git status}
 stage changes for commit {git add <file to add "." for all>}
 commit changes to local repo {git commit -m <message>}
+check which branch currently in {git branch}
+change branch name {git branch -m <file name>}
