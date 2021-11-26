@@ -1,3 +1,4 @@
 testing git commands
 create new local repo with {git init}
 stage changes for commit {git add}
+switch branch {git checkout <branchname>}
