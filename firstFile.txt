@@ -6,3 +6,4 @@ stage changes for commit {git add <file to add "." for all>}
 commit changes to local repo {git commit -m <message>}
 check which branch currently in {git branch}
 change branch name {git branch -m <file name>}
+create remote connection (called "origin") pointing back to the central repo
