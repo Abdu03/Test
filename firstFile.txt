@@ -8,4 +8,5 @@ check which branch currently in {git branch}
 change branch name {git branch -m <file name>}
 create remote connection (called "origin") pointing back to the central repo {git remote add origin <https to where repo is located>}
 push a branch to the central repo {git push -u origin <branchname>}
+publish all local commits {git push}
 merge cunrrent branch with the main branch {git merge <main branch>}
