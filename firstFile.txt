@@ -8,7 +8,8 @@ check which branch currently in {git branch}
 change branch name {git branch -m <file name>}
 create remote connection (called "origin") pointing back to the central repo {git remote add origin <https to where repo is located>}
 push a branch to the central repo {git push -u origin <branchname>}
-publish all local commits {git push}
+publish all local commits on the current branch {git push}
 merge any changes that were made to the main branch separate to current branch as a new commit {git merge <main branch>}
 rebase an entire branch to main {git rebase <branch> <main>}
 merge changes from one branch into current {git merge <branch to get updates from>}
+spot the diffreces on 2 diff branches {git diff <branch1>..<branch2>}
