@@ -12,4 +12,4 @@ publish all local commits on the current branch {git push}
 merge any changes that were made to the main branch separate to current branch as a new commit {git merge <main branch>}
 rebase an entire branch to main {git rebase <branch> <main>}
 merge changes from one branch into current {git merge <branch to get updates from>}
-spot the diffreces on 2 diff branches {git diff <branch1>..<branch2>}
+spot the diffreces on th commits of 2 diffrent branches {git diff <branch1>..<branch2>}
