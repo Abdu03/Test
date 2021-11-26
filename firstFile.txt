@@ -11,3 +11,4 @@ push a branch to the central repo {git push -u origin <branchname>}
 publish all local commits {git push}
 merge any changes that were made to the main branch separate to current branch as a new commit {git merge <main branch>}
 rebase an entire branch to main {git rebase <branch> <main>}
+merge changes from one branch into current {git merge <branch to get updates from>}
