@@ -1,4 +1,11 @@
 testing git commands
 create new local repo with {git init}
-stage changes for commit {git add}
-switch branch {git checkout <branchname>}
+create new branch with {git checkout -b <branch name>}
+check for changes that have not been commited yet {git status}
+stage changes for commit {git add <file to add "." for all>}
+commit changes to local repo {git commit -m <message>}
+check which branch currently in {git branch}
+change branch name {git branch -m <file name>}
+create remote connection (called "origin") pointing back to the central repo {git remote add origin <https to where repo is located>}
+push a branch to the central repo {git push -u origin <branchname>}
+merge cunrrent branch with the main branch {git merge <main branch>}
