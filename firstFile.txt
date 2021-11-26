@@ -1,4 +1,6 @@
 testing git commands
 create new local repo with {git init}
+create new branch with {git checkout -b <branch name>}
+check for changes that have not been commited yet {git status}
 stage changes for commit {git add <file to add "." for all>}
 commit changes to local repo {git commit -m <message>}
